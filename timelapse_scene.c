@@ -1,3 +1,8 @@
+// This prints out a bunch of weird messages
+// Usage: Press 1 to spit out random symbols
+//		2-9 for other messages
+
+
 #include <stdio.h>
 #include <windows.h>
 #include <stdlib.h>
@@ -40,19 +45,10 @@ int main(int argc, char const *argv[])
 				random += 32;
 				printf("%c", random);
 			}
-			//}
-			//clrscr();
-			//Sleep(2000);
-			//printf(CYAN "\nHello.\n");
-			//Sleep(random);
-			//getchar();
-			//Sleep(random);
 			for (int i = 0; i < 5; i++) {
 				printf(CYAN "%s%s%s\n" RESET, error2, "_______", error);
 			}
-			//Sleep(random);
 			printf(CYAN);
-			//i++;
 		}
 		if ((flag == 2)) {
 			printf(MAGENTA "STOP.\n");
@@ -156,8 +152,7 @@ int main(int argc, char const *argv[])
 			Sleep(1000);
 			printf("LOVE YOURSELF.\n" RESET);
 
-		}
-		//char_rand += 110;		
+		}		
 	}
 	return 0;
 }
