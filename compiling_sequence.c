@@ -1,3 +1,5 @@
+// if you type compile it looks cool
+
 #include <stdio.h>
 #include <windows.h>
 #include <stdlib.h>
