@@ -1,3 +1,6 @@
+// Prints weird looking error messages.
+// Type 1-5 to do stuff.
+
 #include <stdio.h>
 #include <windows.h>
 #include <stdlib.h>
@@ -29,8 +32,7 @@ int main(int argc, char const *argv[])
 		random += 80;
 		for (int j = 0; j < 100; j++) {
 			int char_rand = rand() % 140;
-			int char_rand2 = rand() % 140;
-			//char_rand += 110;		
+			int char_rand2 = rand() % 140;		
 			error[j] = char_rand;
 			error2[j] = char_rand2;
 		}
